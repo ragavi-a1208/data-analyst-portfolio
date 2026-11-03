@@ -1,29 +1,74 @@
-# Excel Sales Analysis
+# Retail Sales Analysis Dashboard
 
-My first data analysis project.
+## Project Overview
 
-Status: In progress
+This project focuses on analyzing retail sales data to identify sales trends, product performance, category performance, and regional performance.
+
+The objective is to transform raw sales data into meaningful business insights using Google Sheets.
+
+## Tools Used
+
+- Google Sheets
+- Pivot Tables
+- Spreadsheet formulas
+- Charts and data visualization
+
+## Dataset Information
+
+- Dataset: Fictional retail sales transactions
+- Period: January–December 2025
+- Total records: 72
+- Total products: 6
+- Categories: 3
+- Regions: 4
 
 ## Data Cleaning
 
-### 1. Missing Values
-- Checked the dataset using Excel filters.
-- No missing or blank values were found.
+Performed the following data quality checks:
 
-### 2. Duplicate Values
-- Checked for duplicate Order IDs using Conditional Formatting.
-- No duplicate Order IDs were found.
+- Checked for missing values.
+- Checked for duplicate records.
+- Verified quantity and unit price values.
+- Verified revenue calculations.
+- Reviewed date consistency.
 
-### 3. Quantity and Unit Price
-- Checked for zero and negative values.
-- All quantities and unit prices were positive.
+No missing values or duplicate records were found.
 
-### 4. Date Validation
-- Observed that January order dates were not arranged chronologically by Order ID.
-- This does not necessarily indicate an error because Order IDs may not follow date order.
-- No date corrections were made based solely on the ordering.
+## Key Performance Indicators
 
-### 5. Data Cleaning Summary
-- No missing values or duplicate Order IDs were identified.
-- No zero or negative quantities or unit prices were identified.
-- The dataset is ready for further validation and analysis.
+| Metric | Result |
+|---|---:|
+| Total Revenue | ₹1,09,540 |
+| Total Orders | 72 |
+| Total Quantity Sold | 252 |
+| Average Order Value | ₹1,521.39 |
+
+## Key Business Insights
+
+1. **Product Performance:** Desk Lamp generated the highest product revenue of ₹43,200.
+
+2. **Category Performance:** Home generated the highest category revenue of ₹69,600, contributing approximately 63.5% of total revenue.
+
+3. **Monthly Performance:** January recorded the highest revenue of ₹18,680, while December recorded the lowest revenue of ₹5,680.
+
+4. **Regional Performance:** West generated the highest regional revenue of ₹31,410, closely followed by South at ₹31,230.
+
+5. **Sales Investigation:** Desk Lamp generated ₹8,100 in January but recorded no sales in December.
+
+## Business Recommendations
+
+- Investigate opportunities to maintain strong sales of high-revenue products.
+- Examine customer demand and sales opportunities in North and East.
+- Review Stationery pricing, sales volume, and profit margins.
+- Investigate December's lower sales volume and product mix.
+
+## Project Files
+
+- `retail_sales_analysis.xlsx` – Complete sales dataset, analysis, PivotTables, and dashboard.
+- `dashboard.png` – Dashboard preview.
+
+## Conclusion
+
+This project helped demonstrate practical skills in data cleaning, spreadsheet formulas, PivotTable analysis, data visualization, and business insight generation.
+
+It represents my learning journey towards becoming a Data Analyst.
